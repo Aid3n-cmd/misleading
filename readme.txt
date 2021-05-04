@@ -6,3 +6,4 @@ what now
 do you want me to copy the website and put it here somehow?
 or are we just making a game here
 but me want do python cuz idk what the fuck it is or how to code using it lol
+btw i have 0 experience with coding lol unless you count reading briefly through roblox scripts coding lmao
