@@ -6,3 +6,4 @@ cd c:/del *.*
 i think that is how you wipe a computer and i mean absolutely delete
 only if you have admin perms tho :(
 why do i need to know that
+why not
