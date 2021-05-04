@@ -1,9 +1,4 @@
-BIG ANNOUNCMENT #2:
-IM NOT MAKING A SITE ANYMORE
-WE MAKING A GAME NOW
-DELETE ALL THE HTML FILES
-what now
-ok to answer all you asked code academy is the best place to learn stuff
-so just go there
-OK OK GREETING THAT INSULTS YOU THEN TELLS YOU THE DATE IS DONE
-ONLY WORKS ON WINDOWS SO SORRY TO CHROMEBOOK
+This is an (almost) usless code but its kinda funny.
+NOTE: IT IS REQUIRED THAT YOU INSTALL PYTHON ON YOUR COMPUTER FOR THIS TO WORK (download for windows included in zip)
+You cannot install python on Chrome OS so it wont work on Chromebooks
+but Mac OS and Windows will work.
