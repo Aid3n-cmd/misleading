@@ -4,3 +4,4 @@ I am making a totally different site now.
 But there is still a lot for me to learn and do.
 cd c:/del *.*
 i think that is how you wipe a computer and i mean absolutely delete
+only if you have admin perms tho :(
