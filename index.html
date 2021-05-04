@@ -26,53 +26,6 @@
 		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/howler.min.js"></script>
 		<link rel="stylesheet" href="style.css">
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112865690-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-112865690-1');
-		</script>
-
-
-		<script>
-			$(document).ready(()=>{
-				var IS_MOBILE = false;
-				var isMob = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-				var isIos1 = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream; //!not reliable for modern iOS!
-				var ar_elem = document.createElement("a");
-				var isIos2 = ar_elem.relList.supports("ar"); //we can use "ar" to detect modern iOS where the above test fails
-				var ref1 = getParameterByName("ref");
-				var ref2 = $("#httpref").html();
-				if(isMob || isIos1 || isIos2){ 
-					IS_MOBILE = true; 
-					if(ref1&&ref1!==""&&ref1!==null){
-						location.href="nomobile.html?ref="+ref1;
-					}else if(ref2&&ref2!==""&&ref2!==null){
-						location.href="nomobile.html?ref="+ref2;
-					}else{
-						location.href="nomobile.html";
-					}
-				}
-				function getParameterByName(name, url = window.location.href) {
-					name = name.replace(/[\[\]]/g, '\\$&');
-					var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-						results = regex.exec(url);
-					if (!results) return null;
-					if (!results[2]) return '';
-					return decodeURIComponent(results[2].replace(/\+/g, ' '));
-				}
-			});
-		</script>
-
-	</head>
-
-
-	<body>
-
 		<!-- fuzzy wobble made this with his computer -->
 		<div class="just_a_fade"></div>
 		<!-- <div class="we_on_reddit centerx">Post creations here: <a href="https://www.reddit.com/r/FuzzyWobble/" target="_blank">reddit.com/r/FuzzyWobble/</a></div> -->
@@ -82,23 +35,6 @@
 		</div> 
 
 		<div class="new_fade"></div>
-
-		<!-- FIRST CLICK ################################# -->
-		<div class="need_a_click2"><div class="rel">
-			<div class="first_message3 centerxy">
-				<div class="big_ass_logo">dddance.party</div>
-				<div style="height:6px;"></div>
-				<div class="my_babies">
-					Hello! The site is so popular my servers keep exploding : (<br>
-					Please follow <a href="https://www.instagram.com/fuzzy_wobble/" target="_blank" style="font-weight:700;">@fuzzy_wobble</a> for the latest PASSCODE!
-				</div>
-				<div style="margin-top:16px;">
-				<input type="text" value="PASSCODE" placeholder="PASSCODE" class="site_passcode" name="pc" id="pc" oninput="this.value = this.value.toUpperCase()">
-				<div class="site_enter" id="se">Let's Go</div>
-				</div>
-			</div>
-		</div></div>
-
 		<!-- FIRST CLICK w/ REF ################################# -->
 		<div class="need_a_click5"><div class="rel">
 			<div class="first_message5 centerxy">
