@@ -1,6 +1,5 @@
 # the variable g stands for "greeting" dont mind the p
 g = "good morning, you are retarded"
-p = "crap"
 
 
 
