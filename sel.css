@@ -1,0 +1,2167 @@
+/* We remove color settings for tables from the TDS version of this file, so that color will change when we change theme. */
+h2
+{
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3
+{
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+}
+
+.png_image
+{
+	clear: both;
+	vertical-align: middle;
+	display: block;
+}
+
+p
+{
+	font-family: Verdana;
+}
+
+.poem_body, .count_5, .count_10, .count_15, .count_20, .count_25, .count_30, .count_35, .count_40, .count_45, .count_50, .count_55, .count_60, .count_65, .count_70, .count_75, .count_80, .count_85, .count_90, .count_95, .count_100, .count_105, .count_110, .count_115, .count_120, .count_125, .poem_body_indent, .count_5_indent, .count_10_indent, .count_15_indent, .count_20_indent, .count_25_indent, .count_30_indent, .count_35_indent, .count_40_indent, .count_45_indent, .count_50_indent, .count_55_indent, .count_60_indent, .count_65_indent, .count_70_indent, .count_75_indent, .count_80_indent, .count_85_indent, .count_90_indent, .count_95_indent, .count_100_indent, .count_105_indent, .count_110_indent, .count_115_indent, .count_120_indent, .count_125_indent
+{
+	font-family: Verdana;
+	min-height: 18px;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+div.poem_body:before, div.count_5:before, div.count_10:before, div.count_15:before, div.count_20:before, div.count_25:before, div.count_30:before, div.count_35:before, div.count_40:before, div.count_45:before, div.count_50:before, div.count_55:before, div.count_60:before, div.count_65:before, div.count_70:before, div.count_75:before, div.count_80:before, div.count_85:before, div.count_90:before, div.count_95:before, div.count_100:before, div.count_105:before, div.count_110:before, div.count_115:before, div.count_120:before, div.count_125:before, div.count_5_indent:before, div.count_10_indent:before, div.count_15_indent:before, div.count_20_indent:before, div.count_25_indent:before, div.count_30_indent:before, div.count_35_indent:before, div.count_40_indent:before, div.count_45_indent:before, div.count_50_indent:before, div.count_55_indent:before, div.count_60_indent:before, div.count_65_indent:before, div.count_70_indent:before, div.count_75_indent:before, div.count_80_indent:before, div.count_85_indent:before, div.count_90_indent:before, div.count_95_indent:before, div.count_100_indent:before, div.count_105_indent:before, div.count_110_indent:before, div.count_115_indent:before, div.count_120_indent:before, div.count_125_indent:before
+{
+	width: 2em;
+	display: block;
+	float: left;
+	text-align: right;
+}
+
+div.poem_body_indent:before
+{
+	width: 4.25em;
+	display: block;
+	float: left;
+	text-align: right;
+}
+
+div.count_5:before, div.count_10:before, div.count_15:before, div.count_20:before, div.count_25:before, div.count_30:before, div.count_35:before, div.count_40:before, div.count_45:before, div.count_50:before, div.count_55:before, div.count_60:before, div.count_65:before, div.count_70:before, div.count_75:before, div.count_80:before, div.count_85:before, div.count_90:before, div.count_95:before, div.count_100:before, div.count_105:before, div.count_110:before, div.count_115:before, div.count_120:before, div.count_125:before
+{
+	font-weight: bold;
+	font-size: smaller;
+	padding-right: 24px;
+}
+
+div.count_5_indent:before, div.count_10_indent:before, div.count_15_indent:before, div.count_20_indent:before, div.count_25_indent:before, div.count_30_indent:before, div.count_35_indent:before, div.count_40_indent:before, div.count_45_indent:before, div.count_50_indent:before, div.count_55_indent:before, div.count_60_indent:before, div.count_65_indent:before, div.count_70_indent:before, div.count_75_indent:before, div.count_80_indent:before, div.count_85_indent:before, div.count_90_indent:before, div.count_95_indent:before, div.count_100_indent:before, div.count_105_indent:before, div.count_110_indent:before, div.count_115_indent:before, div.count_120_indent:before, div.count_125_indent:before
+{
+	font-weight: bold;
+	font-size: smaller;
+	padding-right: 60px;
+}
+
+div.poem_body:before, div.poem_body_indent:before
+{
+	content: "\0000a0";
+	padding-right: 18px;
+}
+
+div.count_5:before, div.count_5_indent:before
+{
+	content: "5";
+}
+
+div.count_10:before, div.count_10_indent:before
+{
+	content: "10";
+}
+
+div.count_15:before, div.count_15_indent:before
+{
+	content: "15";
+}
+
+div.count_20:before, div.count_20_indent:before
+{
+	content: "20";
+}
+
+div.count_25:before, div.count_25_indent:before
+{
+	content: "25";
+}
+
+div.count_30:before, div.count_30_indent:before
+{
+	content: "30";
+}
+
+div.count_35:before, div.count_35_indent:before
+{
+	content: "35";
+}
+
+div.count_40:before, div.count_40_indent:before
+{
+	content: "40";
+}
+
+div.count_45:before, div.count_45_indent:before
+{
+	content: "45";
+}
+
+div.count_50:before, div.count_50_indent:before
+{
+	content: "50";
+}
+
+div.count_55:before, div.count_55_indent:before
+{
+	content: "55";
+}
+
+div.count_60:before, div.count_60_indent:before
+{
+	content: "60";
+}
+
+div.count_65:before, div.count_65_indent:before
+{
+	content: "65";
+}
+
+div.count_70:before, div.count_70_indent:before
+{
+	content: "70";
+}
+
+div.count_75:before, div.count_75_indent:before
+{
+	content: "75";
+}
+
+div.count_80:before, div.count_80_indent:before
+{
+	content: "80";
+}
+
+div.count_85:before, div.count_85_indent:before
+{
+	content: "85";
+}
+
+div.count_90:before, div.count_90_indent:before
+{
+	content: "90";
+}
+
+div.count_95:before, div.count_95_indent:before
+{
+	content: "95";
+}
+
+div.count_100:before, div.count_100_indent:before
+{
+	content: "100";
+}
+
+div.count_105:before, div.count_105_indent:before
+{
+	content: "105";
+}
+
+div.count_110:before, div.count_110_indent:before
+{
+	content: "110";
+}
+
+div.count_115:before, div.count_115_indent:before
+{
+	content: "115";
+}
+
+div.count_120:before, div.count_120_indent:before
+{
+	content: "120";
+}
+
+div.count_125:before, div.count_125_indent:before
+{
+	content: "125";
+}
+
+.tds_angle
+{
+	font-family: Lucida Sans Unicode;
+}
+.tds_equation {
+	display: inline-block;
+}
+.tds_pi
+{
+	font-family: Times New Roman;
+}
+
+.centered_image
+{
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tds_centered_image
+{
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tds_paragraph_image
+{
+	clear: both;
+	vertical-align: middle;
+	display: block;
+}
+
+.tds_inline_image
+{
+	vertical-align: middle;
+	display: inline;
+}
+
+/*#region Tables */
+/*#region Common Definition */
+
+table.tds_200_1_col,
+table.tds_200_2_col,
+table.tds_200_3_col,
+table.tds_200_4_col,
+table.tds_200_5_col,
+table.tds_200_6_col,
+table.tds_200_7_col,
+table.tds_200_8_col,
+table.tds_200_9_col,
+table.tds_200_10_col,
+table.tds_200_20_col,
+table.tds_200_left_1_col,
+table.tds_200_left_2_col,
+table.tds_200_left_3_col,
+table.tds_200_left_4_col,
+table.tds_200_left_5_col,
+table.tds_200_left_6_col,
+table.tds_200_left_7_col,
+table.tds_200_left_8_col,
+table.tds_200_left_9_col,
+table.tds_200_left_10_col,
+table.tds_200_left_20_col,
+table.tds_300_1_col,
+table.tds_300_2_col,
+table.tds_300_3_col,
+table.tds_300_4_col,
+table.tds_300_5_col,
+table.tds_300_6_col,
+table.tds_300_7_col,
+table.tds_300_8_col,
+table.tds_300_9_col,
+table.tds_300_10_col,
+table.tds_300_20_col,
+table.tds_300_left_1_col,
+table.tds_300_left_2_col,
+table.tds_300_left_3_col,
+table.tds_300_left_4_col,
+table.tds_300_left_5_col,
+table.tds_300_left_6_col,
+table.tds_300_left_7_col,
+table.tds_300_left_8_col,
+table.tds_300_left_9_col,
+table.tds_300_left_10_col,
+table.tds_300_left_20_col,
+table.tds_400_1_col,
+table.tds_400_2_col,
+table.tds_400_3_col,
+table.tds_400_4_col,
+table.tds_400_5_col,
+table.tds_400_6_col,
+table.tds_400_7_col,
+table.tds_400_8_col,
+table.tds_400_9_col,
+table.tds_400_10_col,
+table.tds_400_20_col,
+table.tds_400_left_1_col,
+table.tds_400_left_2_col,
+table.tds_400_left_3_col,
+table.tds_400_left_4_col,
+table.tds_400_left_5_col,
+table.tds_400_left_6_col,
+table.tds_400_left_7_col,
+table.tds_400_left_8_col,
+table.tds_400_left_9_col,
+table.tds_400_left_10_col,
+table.tds_400_left_20_col,
+table.tds_500_1_col,
+table.tds_500_2_col,
+table.tds_500_3_col,
+table.tds_500_4_col,
+table.tds_500_5_col,
+table.tds_500_6_col,
+table.tds_500_7_col,
+table.tds_500_8_col,
+table.tds_500_9_col,
+table.tds_500_10_col,
+table.tds_500_20_col,
+table.tds_500_left_1_col,
+table.tds_500_left_2_col,
+table.tds_500_left_3_col,
+table.tds_500_left_4_col,
+table.tds_500_left_5_col,
+table.tds_500_left_6_col,
+table.tds_500_left_7_col,
+table.tds_500_left_8_col,
+table.tds_500_left_9_col,
+table.tds_500_left_10_col,
+table.tds_500_left_20_col,
+table.tds_600_1_col,
+table.tds_600_2_col,
+table.tds_600_3_col,
+table.tds_600_4_col,
+table.tds_600_5_col,
+table.tds_600_6_col,
+table.tds_600_7_col,
+table.tds_600_8_col,
+table.tds_600_9_col,
+table.tds_600_10_col,
+table.tds_600_20_col,
+table.tds_600_left_1_col,
+table.tds_600_left_2_col,
+table.tds_600_left_3_col,
+table.tds_600_left_4_col,
+table.tds_600_left_5_col,
+table.tds_600_left_6_col,
+table.tds_600_left_7_col,
+table.tds_600_left_8_col,
+table.tds_600_left_9_col,
+table.tds_600_left_10_col,
+table.tds_600_left_20_col {
+	font-family: Verdana;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*#endregion*/
+/*#region Centered */
+
+table.tds_200_1_col,
+table.tds_200_2_col,
+table.tds_200_3_col,
+table.tds_200_4_col,
+table.tds_200_5_col,
+table.tds_200_6_col,
+table.tds_200_7_col,
+table.tds_200_8_col,
+table.tds_200_9_col,
+table.tds_200_10_col,
+table.tds_200_20_col,
+table.tds_300_1_col,
+table.tds_300_2_col,
+table.tds_300_3_col,
+table.tds_300_4_col,
+table.tds_300_5_col,
+table.tds_300_6_col,
+table.tds_300_7_col,
+table.tds_300_8_col,
+table.tds_300_9_col,
+table.tds_300_10_col,
+table.tds_300_20_col,
+table.tds_400_1_col,
+table.tds_400_2_col,
+table.tds_400_3_col,
+table.tds_400_4_col,
+table.tds_400_5_col,
+table.tds_400_6_col,
+table.tds_400_7_col,
+table.tds_400_8_col,
+table.tds_400_9_col,
+table.tds_400_10_col,
+table.tds_400_20_col,
+table.tds_500_1_col,
+table.tds_500_2_col,
+table.tds_500_3_col,
+table.tds_500_4_col,
+table.tds_500_5_col,
+table.tds_500_6_col,
+table.tds_500_7_col,
+table.tds_500_8_col,
+table.tds_500_9_col,
+table.tds_500_10_col,
+table.tds_500_20_col,
+table.tds_600_1_col,
+table.tds_600_2_col,
+table.tds_600_3_col,
+table.tds_600_4_col,
+table.tds_600_5_col,
+table.tds_600_6_col,
+table.tds_600_7_col,
+table.tds_600_8_col,
+table.tds_600_9_col,
+table.tds_600_10_col,
+table.tds_600_20_col {
+	margin: 0 auto;
+}
+/*#endregion*/
+/*#region Left */
+
+table.tds_200_left_1_col,
+table.tds_200_left_2_col,
+table.tds_200_left_3_col,
+table.tds_200_left_4_col,
+table.tds_200_left_5_col,
+table.tds_200_left_6_col,
+table.tds_200_left_7_col,
+table.tds_200_left_8_col,
+table.tds_200_left_9_col,
+table.tds_200_left_10_col,
+table.tds_200_left_20_col,
+table.tds_300_left_1_col,
+table.tds_300_left_2_col,
+table.tds_300_left_3_col,
+table.tds_300_left_4_col,
+table.tds_300_left_5_col,
+table.tds_300_left_6_col,
+table.tds_300_left_7_col,
+table.tds_300_left_8_col,
+table.tds_300_left_9_col,
+table.tds_300_left_10_col,
+table.tds_300_left_20_col,
+table.tds_400_left_1_col,
+table.tds_400_left_2_col,
+table.tds_400_left_3_col,
+table.tds_400_left_4_col,
+table.tds_400_left_5_col,
+table.tds_400_left_6_col,
+table.tds_400_left_7_col,
+table.tds_400_left_8_col,
+table.tds_400_left_9_col,
+table.tds_400_left_10_col,
+table.tds_400_left_20_col,
+table.tds_500_left_1_col,
+table.tds_500_left_2_col,
+table.tds_500_left_3_col,
+table.tds_500_left_4_col,
+table.tds_500_left_5_col,
+table.tds_500_left_6_col,
+table.tds_500_left_7_col,
+table.tds_500_left_8_col,
+table.tds_500_left_9_col,
+table.tds_500_left_10_col,
+table.tds_500_left_20_col,
+table.tds_600_left_1_col,
+table.tds_600_left_2_col,
+table.tds_600_left_3_col,
+table.tds_600_left_4_col,
+table.tds_600_left_5_col,
+table.tds_600_left_6_col,
+table.tds_600_left_7_col,
+table.tds_600_left_8_col,
+table.tds_600_left_9_col,
+table.tds_600_left_10_col,
+table.tds_600_left_20_col {
+	margin: 0;
+}
+/*#endregion*/
+/*#region Widths */
+/*#region 200 */
+
+table.tds_200_1_col,
+table.tds_200_2_col,
+table.tds_200_3_col,
+table.tds_200_4_col,
+table.tds_200_5_col,
+table.tds_200_6_col,
+table.tds_200_7_col,
+table.tds_200_8_col,
+table.tds_200_9_col,
+table.tds_200_10_col,
+table.tds_200_20_col,
+table.tds_200_left_1_col,
+table.tds_200_left_2_col,
+table.tds_200_left_3_col,
+table.tds_200_left_4_col,
+table.tds_200_left_5_col,
+table.tds_200_left_6_col,
+table.tds_200_left_7_col,
+table.tds_200_left_8_col,
+table.tds_200_left_9_col,
+table.tds_200_left_10_col,
+table.tds_200_left_20_col {
+	width: 200px;
+}
+/*#endregion*/
+/*#region 300 */
+
+table.tds_300_1_col,
+table.tds_300_2_col,
+table.tds_300_3_col,
+table.tds_300_4_col,
+table.tds_300_5_col,
+table.tds_300_6_col,
+table.tds_300_7_col,
+table.tds_300_8_col,
+table.tds_300_9_col,
+table.tds_300_10_col,
+table.tds_300_20_col,
+table.tds_300_left_1_col,
+table.tds_300_left_2_col,
+table.tds_300_left_3_col,
+table.tds_300_left_4_col,
+table.tds_300_left_5_col,
+table.tds_300_left_6_col,
+table.tds_300_left_7_col,
+table.tds_300_left_8_col,
+table.tds_300_left_9_col,
+table.tds_300_left_10_col,
+table.tds_300_left_20_col {
+	width: 300px;
+}
+/*#endregion*/
+/*#region 400 */
+
+table.tds_400_1_col,
+table.tds_400_2_col,
+table.tds_400_3_col,
+table.tds_400_4_col,
+table.tds_400_5_col,
+table.tds_400_6_col,
+table.tds_400_7_col,
+table.tds_400_8_col,
+table.tds_400_9_col,
+table.tds_400_10_col,
+table.tds_400_20_col,
+table.tds_400_left_1_col,
+table.tds_400_left_2_col,
+table.tds_400_left_3_col,
+table.tds_400_left_4_col,
+table.tds_400_left_5_col,
+table.tds_400_left_6_col,
+table.tds_400_left_7_col,
+table.tds_400_left_8_col,
+table.tds_400_left_9_col,
+table.tds_400_left_10_col,
+table.tds_400_left_20_col {
+	width: 400px;
+}
+/*#endregion*/
+/*#region 500 */
+
+table.tds_500_1_col,
+table.tds_500_2_col,
+table.tds_500_3_col,
+table.tds_500_4_col,
+table.tds_500_5_col,
+table.tds_500_6_col,
+table.tds_500_7_col,
+table.tds_500_8_col,
+table.tds_500_9_col,
+table.tds_500_10_col,
+table.tds_500_20_col,
+table.tds_500_left_1_col,
+table.tds_500_left_2_col,
+table.tds_500_left_3_col,
+table.tds_500_left_4_col,
+table.tds_500_left_5_col,
+table.tds_500_left_6_col,
+table.tds_500_left_7_col,
+table.tds_500_left_8_col,
+table.tds_500_left_9_col,
+table.tds_500_left_10_col,
+table.tds_500_left_20_col {
+	width: 500px;
+}
+/*#endregion*/
+/*#region 600 */
+
+table.tds_600_1_col,
+table.tds_600_2_col,
+table.tds_600_3_col,
+table.tds_600_4_col,
+table.tds_600_5_col,
+table.tds_600_6_col,
+table.tds_600_7_col,
+table.tds_600_8_col,
+table.tds_600_9_col,
+table.tds_600_10_col,
+table.tds_600_20_col,
+table.tds_600_left_1_col,
+table.tds_600_left_2_col,
+table.tds_600_left_3_col,
+table.tds_600_left_4_col,
+table.tds_600_left_5_col,
+table.tds_600_left_6_col,
+table.tds_600_left_7_col,
+table.tds_600_left_8_col,
+table.tds_600_left_9_col,
+table.tds_600_left_10_col,
+table.tds_600_left_20_col {
+	width: 600px;
+}
+	/*#endregion*/
+	/*#region Padding */
+
+	table.tds_200_1_col th,
+	table.tds_200_1_col td,
+	table.tds_200_2_col th,
+	table.tds_200_2_col td,
+	table.tds_200_3_col th,
+	table.tds_200_3_col td,
+	table.tds_200_4_col th,
+	table.tds_200_4_col td,
+	table.tds_200_5_col th,
+	table.tds_200_5_col td,
+	table.tds_200_6_col th,
+	table.tds_200_6_col td,
+	table.tds_200_7_col th,
+	table.tds_200_7_col td,
+	table.tds_200_8_col th,
+	table.tds_200_8_col td,
+	table.tds_200_9_col th,
+	table.tds_200_9_col td,
+	table.tds_200_10_col th,
+	table.tds_200_10_col td,
+	table.tds_200_20_col th,
+	table.tds_200_20_col td,
+	table.tds_200_left_1_col th,
+	table.tds_200_left_1_col td,
+	table.tds_200_left_2_col th,
+	table.tds_200_left_2_col td,
+	table.tds_200_left_3_col th,
+	table.tds_200_left_3_col td,
+	table.tds_200_left_4_col th,
+	table.tds_200_left_4_col td,
+	table.tds_200_left_5_col th,
+	table.tds_200_left_5_col td,
+	table.tds_200_left_6_col th,
+	table.tds_200_left_6_col td,
+	table.tds_200_left_7_col th,
+	table.tds_200_left_7_col td,
+	table.tds_200_left_8_col th,
+	table.tds_200_left_8_col td,
+	table.tds_200_left_9_col th,
+	table.tds_200_left_9_col td,
+	table.tds_200_left_10_col th,
+	table.tds_200_left_10_col td,
+	table.tds_200_left_20_col th,
+	table.tds_200_left_20_col td,
+	table.tds_table_200 th,
+	table.tds_table_200 td,
+	table.tds_300_1_col th,
+	table.tds_300_1_col td,
+	table.tds_300_2_col th,
+	table.tds_300_2_col td,
+	table.tds_300_3_col th,
+	table.tds_300_3_col td,
+	table.tds_300_4_col th,
+	table.tds_300_4_col td,
+	table.tds_300_5_col th,
+	table.tds_300_5_col td,
+	table.tds_300_6_col th,
+	table.tds_300_6_col td,
+	table.tds_300_7_col th,
+	table.tds_300_7_col td,
+	table.tds_300_8_col th,
+	table.tds_300_8_col td,
+	table.tds_300_9_col th,
+	table.tds_300_9_col td,
+	table.tds_300_10_col th,
+	table.tds_300_10_col td,
+	table.tds_300_20_col th,
+	table.tds_300_20_col td,
+	table.tds_300_left_1_col th,
+	table.tds_300_left_1_col td,
+	table.tds_300_left_2_col th,
+	table.tds_300_left_2_col td,
+	table.tds_300_left_3_col th,
+	table.tds_300_left_3_col td,
+	table.tds_300_left_4_col th,
+	table.tds_300_left_4_col td,
+	table.tds_300_left_5_col th,
+	table.tds_300_left_5_col td,
+	table.tds_300_left_6_col th,
+	table.tds_300_left_6_col td,
+	table.tds_300_left_7_col th,
+	table.tds_300_left_7_col td,
+	table.tds_300_left_8_col th,
+	table.tds_300_left_8_col td,
+	table.tds_300_left_9_col th,
+	table.tds_300_left_9_col td,
+	table.tds_300_left_10_col th,
+	table.tds_300_left_10_col td,
+	table.tds_300_left_20_col th,
+	table.tds_300_left_20_col td,
+	table.tds_table_300 th,
+	table.tds_table_300 td,
+	table.tds_400_1_col th,
+	table.tds_400_1_col td,
+	table.tds_400_2_col th,
+	table.tds_400_2_col td,
+	table.tds_400_3_col th,
+	table.tds_400_3_col td,
+	table.tds_400_4_col th,
+	table.tds_400_4_col td,
+	table.tds_400_5_col th,
+	table.tds_400_5_col td,
+	table.tds_400_6_col th,
+	table.tds_400_6_col td,
+	table.tds_400_7_col th,
+	table.tds_400_7_col td,
+	table.tds_400_8_col th,
+	table.tds_400_8_col td,
+	table.tds_400_9_col th,
+	table.tds_400_9_col td,
+	table.tds_400_10_col th,
+	table.tds_400_10_col td,
+	table.tds_400_20_col th,
+	table.tds_400_20_col td,
+	table.tds_400_left_1_col th,
+	table.tds_400_left_1_col td,
+	table.tds_400_left_2_col th,
+	table.tds_400_left_2_col td,
+	table.tds_400_left_3_col th,
+	table.tds_400_left_3_col td,
+	table.tds_400_left_4_col th,
+	table.tds_400_left_4_col td,
+	table.tds_400_left_5_col th,
+	table.tds_400_left_5_col td,
+	table.tds_400_left_6_col th,
+	table.tds_400_left_6_col td,
+	table.tds_400_left_7_col th,
+	table.tds_400_left_7_col td,
+	table.tds_400_left_8_col th,
+	table.tds_400_left_8_col td,
+	table.tds_400_left_9_col th,
+	table.tds_400_left_9_col td,
+	table.tds_400_left_10_col th,
+	table.tds_400_left_10_col td,
+	table.tds_400_left_20_col th,
+	table.tds_400_left_20_col td,
+	table.tds_table_400 th,
+	table.tds_table_400 td,
+	table.tds_500_1_col th,
+	table.tds_500_1_col td,
+	table.tds_500_2_col th,
+	table.tds_500_2_col td,
+	table.tds_500_3_col th,
+	table.tds_500_3_col td,
+	table.tds_500_4_col th,
+	table.tds_500_4_col td,
+	table.tds_500_5_col th,
+	table.tds_500_5_col td,
+	table.tds_500_6_col th,
+	table.tds_500_6_col td,
+	table.tds_500_7_col th,
+	table.tds_500_7_col td,
+	table.tds_500_8_col th,
+	table.tds_500_8_col td,
+	table.tds_500_9_col th,
+	table.tds_500_9_col td,
+	table.tds_500_10_col th,
+	table.tds_500_10_col td,
+	table.tds_500_20_col th,
+	table.tds_500_20_col td,
+	table.tds_500_left_1_col th,
+	table.tds_500_left_1_col td,
+	table.tds_500_left_2_col th,
+	table.tds_500_left_2_col td,
+	table.tds_500_left_3_col th,
+	table.tds_500_left_3_col td,
+	table.tds_500_left_4_col th,
+	table.tds_500_left_4_col td,
+	table.tds_500_left_5_col th,
+	table.tds_500_left_5_col td,
+	table.tds_500_left_6_col th,
+	table.tds_500_left_6_col td,
+	table.tds_500_left_7_col th,
+	table.tds_500_left_7_col td,
+	table.tds_500_left_8_col th,
+	table.tds_500_left_8_col td,
+	table.tds_500_left_9_col th,
+	table.tds_500_left_9_col td,
+	table.tds_500_left_10_col th,
+	table.tds_500_left_10_col td,
+	table.tds_500_left_20_col th,
+	table.tds_500_left_20_col td,
+	table.tds_table_500 th,
+	table.tds_table_500 td,
+	table.tds_600_1_col th,
+	table.tds_600_1_col td,
+	table.tds_600_2_col th,
+	table.tds_600_2_col td,
+	table.tds_600_3_col th,
+	table.tds_600_3_col td,
+	table.tds_600_4_col th,
+	table.tds_600_4_col td,
+	table.tds_600_5_col th,
+	table.tds_600_5_col td,
+	table.tds_600_6_col th,
+	table.tds_600_6_col td,
+	table.tds_600_7_col th,
+	table.tds_600_7_col td,
+	table.tds_600_8_col th,
+	table.tds_600_8_col td,
+	table.tds_600_9_col th,
+	table.tds_600_9_col td,
+	table.tds_600_10_col th,
+	table.tds_600_10_col td,
+	table.tds_600_20_col th,
+	table.tds_600_20_col td,
+	table.tds_600_left_1_col th,
+	table.tds_600_left_1_col td,
+	table.tds_600_left_2_col th,
+	table.tds_600_left_2_col td,
+	table.tds_600_left_3_col th,
+	table.tds_600_left_3_col td,
+	table.tds_600_left_4_col th,
+	table.tds_600_left_4_col td,
+	table.tds_600_left_5_col th,
+	table.tds_600_left_5_col td,
+	table.tds_600_left_6_col th,
+	table.tds_600_left_6_col td,
+	table.tds_600_left_7_col th,
+	table.tds_600_left_7_col td,
+	table.tds_600_left_8_col th,
+	table.tds_600_left_8_col td,
+	table.tds_600_left_9_col th,
+	table.tds_600_left_9_col td,
+	table.tds_600_left_10_col th,
+	table.tds_600_left_10_col td,
+	table.tds_600_left_20_col th,
+	table.tds_600_left_20_col td,
+	table.tds_table_600 th,
+	table.tds_table_600 td {
+		padding: 5px;
+	}
+	/*#endregion*/
+	/*#region Column Widths */
+	/*#region 1 Column */
+
+	table.tds_200_1_col th,
+	table.tds_200_1_col td,
+	table.tds_300_1_col th,
+	table.tds_300_1_col td,
+	table.tds_400_1_col th,
+	table.tds_400_1_col td,
+	table.tds_500_1_col th,
+	table.tds_500_1_col td,
+	table.tds_600_1_col th,
+	table.tds_600_1_col td,
+	table.tds_200_left_1_col th,
+	table.tds_200_left_1_col td,
+	table.tds_300_left_1_col th,
+	table.tds_300_left_1_col td,
+	table.tds_400_left_1_col th,
+	table.tds_400_left_1_col td,
+	table.tds_500_left_1_col th,
+	table.tds_500_left_1_col td,
+	table.tds_600_left_1_col th,
+	table.tds_600_left_1_col td {
+		width: 100%;
+	}
+	/*#endregion*/
+	/*#region 2 Column */
+
+	table.tds_200_2_col th,
+	table.tds_200_2_col td,
+	table.tds_300_2_col th,
+	table.tds_300_2_col td,
+	table.tds_400_2_col th,
+	table.tds_400_2_col td,
+	table.tds_500_2_col th,
+	table.tds_500_2_col td,
+	table.tds_600_2_col th,
+	table.tds_600_2_col td,
+	table.tds_200_left_2_col th,
+	table.tds_200_left_2_col td,
+	table.tds_300_left_2_col th,
+	table.tds_300_left_2_col td,
+	table.tds_400_left_2_col th,
+	table.tds_400_left_2_col td,
+	table.tds_500_left_2_col th,
+	table.tds_500_left_2_col td,
+	table.tds_600_left_2_col th,
+	table.tds_600_left_2_col td {
+		width: 50%;
+	}
+	/*#endregion*/
+	/*#region 3 Column */
+
+	table.tds_200_3_col th,
+	table.tds_200_3_col td,
+	table.tds_300_3_col th,
+	table.tds_300_3_col td,
+	table.tds_400_3_col th,
+	table.tds_400_3_col td,
+	table.tds_500_3_col th,
+	table.tds_500_3_col td,
+	table.tds_600_3_col th,
+	table.tds_600_3_col td,
+	table.tds_200_left_3_col th,
+	table.tds_200_left_3_col td,
+	table.tds_300_left_3_col th,
+	table.tds_300_left_3_col td,
+	table.tds_400_left_3_col th,
+	table.tds_400_left_3_col td,
+	table.tds_500_left_3_col th,
+	table.tds_500_left_3_col td,
+	table.tds_600_left_3_col th,
+	table.tds_600_left_3_col td {
+		width: 33.33%;
+	}
+	/*#endregion*/
+	/*#region 4 Column */
+
+	table.tds_200_4_col th,
+	table.tds_200_4_col td,
+	table.tds_300_4_col th,
+	table.tds_300_4_col td,
+	table.tds_400_4_col th,
+	table.tds_400_4_col td,
+	table.tds_500_4_col th,
+	table.tds_500_4_col td,
+	table.tds_600_4_col th,
+	table.tds_600_4_col td,
+	table.tds_200_left_4_col th,
+	table.tds_200_left_4_col td,
+	table.tds_300_left_4_col th,
+	table.tds_300_left_4_col td,
+	table.tds_400_left_4_col th,
+	table.tds_400_left_4_col td,
+	table.tds_500_left_4_col th,
+	table.tds_500_left_4_col td,
+	table.tds_600_left_4_col th,
+	table.tds_600_left_4_col td {
+		width: 25%;
+	}
+	/*#endregion*/
+	/*#region 5 Column */
+
+	table.tds_200_5_col th,
+	table.tds_200_5_col td,
+	table.tds_300_5_col th,
+	table.tds_300_5_col td,
+	table.tds_400_5_col th,
+	table.tds_400_5_col td,
+	table.tds_500_5_col th,
+	table.tds_500_5_col td,
+	table.tds_600_5_col th,
+	table.tds_600_5_col td,
+	table.tds_200_left_5_col th,
+	table.tds_200_left_5_col td,
+	table.tds_300_left_5_col th,
+	table.tds_300_left_5_col td,
+	table.tds_400_left_5_col th,
+	table.tds_400_left_5_col td,
+	table.tds_500_left_5_col th,
+	table.tds_500_left_5_col td,
+	table.tds_600_left_5_col th,
+	table.tds_600_left_5_col td {
+		width: 20%;
+	}
+	/*#endregion*/
+	/*#region 6 Column */
+
+	table.tds_200_6_col th,
+	table.tds_200_6_col td,
+	table.tds_300_6_col th,
+	table.tds_300_6_col td,
+	table.tds_400_6_col th,
+	table.tds_400_6_col td,
+	table.tds_500_6_col th,
+	table.tds_500_6_col td,
+	table.tds_600_6_col th,
+	table.tds_600_6_col td,
+	table.tds_200_left_6_col th,
+	table.tds_200_left_6_col td,
+	table.tds_300_left_6_col th,
+	table.tds_300_left_6_col td,
+	table.tds_400_left_6_col th,
+	table.tds_400_left_6_col td,
+	table.tds_500_left_6_col th,
+	table.tds_500_left_6_col td,
+	table.tds_600_left_6_col th,
+	table.tds_600_left_6_col td {
+		width: 16.66%;
+	}
+	/*#endregion*/
+	/*#region 7 Column */
+
+	table.tds_200_7_col th,
+	table.tds_200_7_col td,
+	table.tds_300_7_col th,
+	table.tds_300_7_col td,
+	table.tds_400_7_col th,
+	table.tds_400_7_col td,
+	table.tds_500_7_col th,
+	table.tds_500_7_col td,
+	table.tds_600_7_col th,
+	table.tds_600_7_col td,
+	table.tds_200_left_7_col th,
+	table.tds_200_left_7_col td,
+	table.tds_300_left_7_col th,
+	table.tds_300_left_7_col td,
+	table.tds_400_left_7_col th,
+	table.tds_400_left_7_col td,
+	table.tds_500_left_7_col th,
+	table.tds_500_left_7_col td,
+	table.tds_600_left_7_col th,
+	table.tds_600_left_7_col td {
+		width: 14.28%;
+	}
+	/*#endregion*/
+	/*#region 8 Column */
+
+	table.tds_200_8_col th,
+	table.tds_200_8_col td,
+	table.tds_300_8_col th,
+	table.tds_300_8_col td,
+	table.tds_400_8_col th,
+	table.tds_400_8_col td,
+	table.tds_500_8_col th,
+	table.tds_500_8_col td,
+	table.tds_600_8_col th,
+	table.tds_600_8_col td,
+	table.tds_200_left_8_col th,
+	table.tds_200_left_8_col td,
+	table.tds_300_left_8_col th,
+	table.tds_300_left_8_col td,
+	table.tds_400_left_8_col th,
+	table.tds_400_left_8_col td,
+	table.tds_500_left_8_col th,
+	table.tds_500_left_8_col td,
+	table.tds_600_left_8_col th,
+	table.tds_600_left_8_col td {
+		width: 12.5%;
+	}
+	/*#endregion*/
+	/*#region 9 Column */
+
+	table.tds_200_9_col th,
+	table.tds_200_9_col td,
+	table.tds_300_9_col th,
+	table.tds_300_9_col td,
+	table.tds_400_9_col th,
+	table.tds_400_9_col td,
+	table.tds_500_9_col th,
+	table.tds_500_9_col td,
+	table.tds_600_9_col th,
+	table.tds_600_9_col td,
+	table.tds_200_left_9_col th,
+	table.tds_200_left_9_col td,
+	table.tds_300_left_9_col th,
+	table.tds_300_left_9_col td,
+	table.tds_400_left_9_col th,
+	table.tds_400_left_9_col td,
+	table.tds_500_left_9_col th,
+	table.tds_500_left_9_col td,
+	table.tds_600_left_9_col th,
+	table.tds_600_left_9_col td {
+		width: 11%;
+	}
+	/*#endregion*/
+	/*#region 10 Column */
+
+	table.tds_200_10_col th,
+	table.tds_200_10_col td,
+	table.tds_300_10_col th,
+	table.tds_300_10_col td,
+	table.tds_400_10_col th,
+	table.tds_400_10_col td,
+	table.tds_500_10_col th,
+	table.tds_500_10_col td,
+	table.tds_600_10_col th,
+	table.tds_600_10_col td,
+	table.tds_200_left_10_col th,
+	table.tds_200_left_10_col td,
+	table.tds_300_left_10_col th,
+	table.tds_300_left_10_col td,
+	table.tds_400_left_10_col th,
+	table.tds_400_left_10_col td,
+	table.tds_500_left_10_col th,
+	table.tds_500_left_10_col td,
+	table.tds_600_left_10_col th,
+	table.tds_600_left_10_col td {
+		width: 10%;
+	}
+	/*#endregion*/
+	/*#region 20 Column */
+
+	table.tds_200_20_col th,
+	table.tds_200_20_col td,
+	table.tds_300_20_col th,
+	table.tds_300_20_col td,
+	table.tds_400_20_col th,
+	table.tds_400_20_col td,
+	table.tds_500_20_col th,
+	table.tds_500_20_col td,
+	table.tds_600_20_col th,
+	table.tds_600_20_col td,
+	table.tds_200_left_20_col th,
+	table.tds_200_left_20_col td,
+	table.tds_300_left_20_col th,
+	table.tds_300_left_20_col td,
+	table.tds_400_left_20_col th,
+	table.tds_400_left_20_col td,
+	table.tds_500_left_20_col th,
+	table.tds_500_left_20_col td,
+	table.tds_600_left_20_col th,
+	table.tds_600_left_20_col td {
+		width: 5%;
+	}
+/*#endregion*/
+/*#endregion*/
+
+/*#endregion*/
+/*#region Stand Alones */
+/*#region 200 */
+
+table.tds_table_200 {
+	width: 200px;
+	font-family: Verdana;
+	border: 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+	table.tds_table_200 th,
+	table.tds_table_200 td,
+	table.tds_table_200 tr {
+		vertical-align: middle;
+		text-align: center;
+	}
+/*#endregion*/
+/*#region 300 */
+table.tds_table_300 {
+	width: 300px;
+	font-family: Verdana;
+	border: 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+	table.tds_table_300 th,
+	table.tds_table_300 td,
+	table.tds_table_300 tr {
+		vertical-align: middle;
+		text-align: center;
+	}
+/*#endregion*/
+/*#region 400 */
+table.tds_table_400 {
+	width: 400px;
+	font-family: Verdana;
+	border: 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+	table.tds_table_400 th,
+	table.tds_table_400 td,
+	table.tds_table_400 tr {
+		vertical-align: middle;
+		text-align: center;
+	}
+/*#endregion*/
+/*#region 500 */
+table.tds_table_500 {
+	width: 500px;
+	font-family: Verdana;
+	border: 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+	table.tds_table_500 th,
+	table.tds_table_500 td,
+	table.tds_table_500 tr {
+		vertical-align: middle;
+		text-align: center;
+	}
+/*#endregion*/
+/*#region 600 */
+table.tds_table_600 {
+	width: 600px;
+	font-family: Verdana;
+	border: 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+	table.tds_table_600 th,
+	table.tds_table_600 td,
+	table.tds_table_600 tr {
+		vertical-align: middle;
+		text-align: center;
+	}
+/*#endregion*/
+/*#endregion*/
+/*#endregion*/
+td.tds_col_box_bottom,
+td.tds_col_none_bottom,
+td.tds_col_T_bottom,
+td.tds_col_TR_bottom,
+td.tds_col_TB_bottom,
+td.tds_col_TL_bottom,
+td.tds_col_TRB_bottom,
+td.tds_col_TRL_bottom,
+td.tds_col_TBL_bottom,
+td.tds_col_R_bottom,
+td.tds_col_RB_bottom,
+td.tds_col_RL_bottom,
+td.tds_col_RBL_bottom,
+td.tds_col_B_bottom,
+td.tds_col_BL_bottom,
+td.tds_col_L_bottom,
+td.tds_col_box_left_bottom,
+td.tds_col_none_left_bottom,
+td.tds_col_T_left_bottom,
+td.tds_col_TR_left_bottom,
+td.tds_col_TB_left_bottom,
+td.tds_col_TL_left_bottom,
+td.tds_col_TRB_left_bottom,
+td.tds_col_TRL_left_bottom,
+td.tds_col_TBL_left_bottom,
+td.tds_col_R_left_bottom,
+td.tds_col_RB_left_bottom,
+td.tds_col_RL_left_bottom,
+td.tds_col_RBL_left_bottom,
+td.tds_col_B_left_bottom,
+td.tds_col_BL_left_bottom,
+td.tds_col_L_left_bottom,
+td.tds_col_box_right_bottom,
+td.tds_col_none_right_bottom,
+td.tds_col_T_right_bottom,
+td.tds_col_TR_right_bottom,
+td.tds_col_TB_right_bottom,
+td.tds_col_TL_right_bottom,
+td.tds_col_TRB_right_bottom,
+td.tds_col_TRL_right_bottom,
+td.tds_col_TBL_right_bottom,
+td.tds_col_R_right_bottom,
+td.tds_col_RB_right_bottom,
+td.tds_col_RL_right_bottom,
+td.tds_col_RBL_right_bottom,
+td.tds_col_B_right_bottom,
+td.tds_col_BL_right_bottom,
+td.tds_col_L_right_bottom,
+td.tds_col_B_bottom_dash {
+	vertical-align: bottom;
+}
+
+td.tds_col_box_top,
+td.tds_col_none_top,
+td.tds_col_T_top,
+td.tds_col_TR_top,
+td.tds_col_TB_top,
+td.tds_col_TL_top,
+td.tds_col_TRB_top,
+td.tds_col_TRL_top,
+td.tds_col_TBL_top,
+td.tds_col_R_top,
+td.tds_col_RB_top,
+td.tds_col_RL_top,
+td.tds_col_RBL_top,
+td.tds_col_B_top,
+td.tds_col_BL_top,
+td.tds_col_L_top,
+td.tds_col_box_left_top,
+td.tds_col_none_left_top,
+td.tds_col_T_left_top,
+td.tds_col_TR_left_top,
+td.tds_col_TB_left_top,
+td.tds_col_TL_left_top,
+td.tds_col_TRB_left_top,
+td.tds_col_TRL_left_top,
+td.tds_col_TBL_left_top,
+td.tds_col_R_left_top,
+td.tds_col_RB_left_top,
+td.tds_col_RL_left_top,
+td.tds_col_RBL_left_top,
+td.tds_col_B_left_top,
+td.tds_col_BL_left_top,
+td.tds_col_L_left_top,
+td.tds_col_box_right_top,
+td.tds_col_none_right_top,
+td.tds_col_T_right_top,
+td.tds_col_TR_right_top,
+td.tds_col_TB_right_top,
+td.tds_col_TL_right_top,
+td.tds_col_TRB_right_top,
+td.tds_col_TRL_right_top,
+td.tds_col_TBL_right_top,
+td.tds_col_R_right_top,
+td.tds_col_RB_right_top,
+td.tds_col_RL_right_top,
+td.tds_col_RBL_right_top,
+td.tds_col_B_right_top,
+td.tds_col_BL_right_top,
+td.tds_col_L_right_top
+{vertical-align: top}
+
+td.col_B,
+td.col_BL,
+td.col_box,
+td.col_BR,
+td.col_BRL,
+td.col_L,
+td.col_R,
+td.col_RL,
+td.col_T,
+td.col_TB,
+td.col_TBL,
+td.col_TBR,
+td.col_TL,
+td.col_TR,
+td.r1_c1,
+td.r1_crest,
+td.r2_c1,
+td.r2_crest,
+td.tds_col_box,
+td.tds_col_none,
+td.tds_col_T,
+td.tds_col_TR,
+td.tds_col_TB,
+td.tds_col_TL,
+td.tds_col_TRB,
+td.tds_col_TRL,
+td.tds_col_TBL,
+td.tds_col_R,
+td.tds_col_RB,
+td.tds_col_RL,
+td.tds_col_RBL,
+td.tds_col_B,
+td.tds_col_BL,
+td.tds_col_L,
+td.tds_col_box_bottom,
+td.tds_col_none_bottom,
+td.tds_col_T_bottom,
+td.tds_col_TR_bottom,
+td.tds_col_TB_bottom,
+td.tds_col_TL_bottom,
+td.tds_col_TRB_bottom,
+td.tds_col_TRL_bottom,
+td.tds_col_TBL_bottom,
+td.tds_col_R_bottom,
+td.tds_col_RB_bottom,
+td.tds_col_RL_bottom,
+td.tds_col_RBL_bottom,
+td.tds_col_B_bottom,
+td.tds_col_BL_bottom,
+td.tds_col_L_bottom,
+td.tds_col_box_top,
+td.tds_col_none_top,
+td.tds_col_T_top,
+td.tds_col_TR_top,
+td.tds_col_TB_top,
+td.tds_col_TL_top,
+td.tds_col_TRB_top,
+td.tds_col_TRL_top,
+td.tds_col_TBL_top,
+td.tds_col_R_top,
+td.tds_col_RB_top,
+td.tds_col_RL_top,
+td.tds_col_RBL_top,
+td.tds_col_B_top,
+td.tds_col_BL_top,
+td.tds_col_L_top,
+td.tds_col_B_bottom_dash {
+	text-align: center;
+}
+
+td.col_B,
+td.col_BL,
+td.col_box,
+td.col_BR,
+td.col_BRL,
+td.col_L,
+td.col_R,
+td.col_RL,
+td.col_T,
+td.col_TB,
+td.col_TBL,
+td.col_TBR,
+td.col_TL,
+td.col_TR,
+td.r1_c1,
+td.r1_crest,
+td.r2_c1,
+td.r2_crest,
+td.tds_col_box,
+td.tds_col_none,
+td.tds_col_T,
+td.tds_col_TR,
+td.tds_col_TB,
+td.tds_col_TL,
+td.tds_col_TRB,
+td.tds_col_TRL,
+td.tds_col_TBL,
+td.tds_col_R,
+td.tds_col_RB,
+td.tds_col_RL,
+td.tds_col_RBL,
+td.tds_col_B,
+td.tds_col_BL,
+td.tds_col_L,
+td.tds_col_box_left,
+td.tds_col_none_left,
+td.tds_col_T_left,
+td.tds_col_TR_left,
+td.tds_col_TB_left,
+td.tds_col_TL_left,
+td.tds_col_TRB_left,
+td.tds_col_TRL_left,
+td.tds_col_TBL_left,
+td.tds_col_R_left,
+td.tds_col_RB_left,
+td.tds_col_RL_left,
+td.tds_col_RBL_left,
+td.tds_col_B_left,
+td.tds_col_BL_left,
+td.tds_col_L_left,
+td.tds_col_box_right,
+td.tds_col_none_right,
+td.tds_col_T_right,
+td.tds_col_TR_right,
+td.tds_col_TB_right,
+td.tds_col_TL_right,
+td.tds_col_TRB_right,
+td.tds_col_TRL_right,
+td.tds_col_TBL_right,
+td.tds_col_R_right,
+td.tds_col_RB_right,
+td.tds_col_RL_right,
+td.tds_col_RBL_right,
+td.tds_col_B_right,
+td.tds_col_BL_right,
+td.tds_col_L_right {
+	vertical-align: middle;
+}
+
+td.tds_col_box_left,
+td.tds_col_none_left,
+td.tds_col_T_left,
+td.tds_col_TR_left,
+td.tds_col_TB_left,
+td.tds_col_TL_left,
+td.tds_col_TRB_left,
+td.tds_col_TRL_left,
+td.tds_col_TBL_left,
+td.tds_col_R_left,
+td.tds_col_RB_left,
+td.tds_col_RL_left,
+td.tds_col_RBL_left,
+td.tds_col_B_left,
+td.tds_col_BL_left,
+td.tds_col_L_left,
+td.tds_col_box_left_bottom,
+td.tds_col_none_left_bottom,
+td.tds_col_T_left_bottom,
+td.tds_col_TR_left_bottom,
+td.tds_col_TB_left_bottom,
+td.tds_col_TL_left_bottom,
+td.tds_col_TRB_left_bottom,
+td.tds_col_TRL_left_bottom,
+td.tds_col_TBL_left_bottom,
+td.tds_col_R_left_bottom,
+td.tds_col_RB_left_bottom,
+td.tds_col_RL_left_bottom,
+td.tds_col_RBL_left_bottom,
+td.tds_col_B_left_bottom,
+td.tds_col_BL_left_bottom,
+td.tds_col_L_left_bottom,
+td.tds_col_box_left_top,
+td.tds_col_none_left_top,
+td.tds_col_T_left_top,
+td.tds_col_TR_left_top,
+td.tds_col_TB_left_top,
+td.tds_col_TL_left_top,
+td.tds_col_TRB_left_top,
+td.tds_col_TRL_left_top,
+td.tds_col_TBL_left_top,
+td.tds_col_R_left_top,
+td.tds_col_RB_left_top,
+td.tds_col_RL_left_top,
+td.tds_col_RBL_left_top,
+td.tds_col_B_left_top,
+td.tds_col_BL_left_top,
+td.tds_col_L_left_top {
+	text-align: left;
+}
+
+td.tds_col_box_right,
+td.tds_col_none_right,
+td.tds_col_T_right,
+td.tds_col_TR_right,
+td.tds_col_TB_right,
+td.tds_col_TL_right,
+td.tds_col_TRB_right,
+td.tds_col_TRL_right,
+td.tds_col_TBL_right,
+td.tds_col_R_right,
+td.tds_col_RB_right,
+td.tds_col_RL_right,
+td.tds_col_RBL_right,
+td.tds_col_B_right,
+td.tds_col_BL_right,
+td.tds_col_L_right,
+td.tds_col_box_right_bottom,
+td.tds_col_none_right_bottom,
+td.tds_col_T_right_bottom,
+td.tds_col_TR_right_bottom,
+td.tds_col_TB_right_bottom,
+td.tds_col_TL_right_bottom,
+td.tds_col_TRB_right_bottom,
+td.tds_col_TRL_right_bottom,
+td.tds_col_TBL_right_bottom,
+td.tds_col_R_right_bottom,
+td.tds_col_RB_right_bottom,
+td.tds_col_RL_right_bottom,
+td.tds_col_RBL_right_bottom,
+td.tds_col_B_right_bottom,
+td.tds_col_BL_right_bottom,
+td.tds_col_L_right_bottom,
+td.tds_col_box_right_top,
+td.tds_col_none_right_top,
+td.tds_col_T_right_top,
+td.tds_col_TR_right_top,
+td.tds_col_TB_right_top,
+td.tds_col_TL_right_top,
+td.tds_col_TRB_right_top,
+td.tds_col_TRL_right_top,
+td.tds_col_TBL_right_top,
+td.tds_col_R_right_top,
+td.tds_col_RB_right_top,
+td.tds_col_RL_right_top,
+td.tds_col_RBL_right_top,
+td.tds_col_B_right_top,
+td.tds_col_BL_right_top,
+td.tds_col_L_right_top {
+	text-align: right;
+}
+
+td.tds_col_none,
+td.tds_col_none_left,
+td.tds_col_none_right,
+td.tds_col_none_bottom,
+td.tds_col_none_left_bottom,
+td.tds_col_none_right_bottom,
+td.tds_col_none_top,
+td.tds_col_none_left_top,
+td.tds_col_none_right_top {
+	border: 0;
+}
+
+td.r1_c1,
+td.col_box,
+td.tds_col_box,
+td.tds_col_box_left,
+td.tds_col_box_right,
+td.tds_col_box_bottom,
+td.tds_col_box_left_bottom,
+td.tds_col_box_right_bottom,
+td.tds_col_box_top,
+td.tds_col_box_left_top,
+td.tds_col_box_right_top {
+	border: 1px solid;
+}
+
+td.col_T,
+td.col_TB,
+td.col_TBL,
+td.col_TBR,
+td.col_TL,
+td.col_TR,
+td.r1_crest,
+td.tds_col_T,
+td.tds_col_TR,
+td.tds_col_TB,
+td.tds_col_TL,
+td.tds_col_TRB,
+td.tds_col_TRL,
+td.tds_col_TBL,
+td.tds_col_T_left,
+td.tds_col_TR_left,
+td.tds_col_TB_left,
+td.tds_col_TL_left,
+td.tds_col_TRB_left,
+td.tds_col_TRL_left,
+td.tds_col_TBL_left,
+td.tds_col_T_right,
+td.tds_col_TR_right,
+td.tds_col_TB_right,
+td.tds_col_TL_right,
+td.tds_col_TRB_right,
+td.tds_col_TRL_right,
+td.tds_col_TBL_right,
+td.tds_col_T_bottom,
+td.tds_col_TR_bottom,
+td.tds_col_TB_bottom,
+td.tds_col_TL_bottom,
+td.tds_col_TRB_bottom,
+td.tds_col_TRL_bottom,
+td.tds_col_TBL_bottom,
+td.tds_col_T_left_bottom,
+td.tds_col_TR_left_bottom,
+td.tds_col_TB_left_bottom,
+td.tds_col_TL_left_bottom,
+td.tds_col_TRB_left_bottom,
+td.tds_col_TRL_left_bottom,
+td.tds_col_TBL_left_bottom,
+td.tds_col_T_right_bottom,
+td.tds_col_TR_right_bottom,
+td.tds_col_TB_right_bottom,
+td.tds_col_TL_right_bottom,
+td.tds_col_TRB_right_bottom,
+td.tds_col_TRL_right_bottom,
+td.tds_col_TBL_right_bottom,
+td.tds_col_T_top,
+td.tds_col_TR_top,
+td.tds_col_TB_top,
+td.tds_col_TL_top,
+td.tds_col_TRB_top,
+td.tds_col_TRL_top,
+td.tds_col_TBL_top,
+td.tds_col_T_left_top,
+td.tds_col_TR_left_top,
+td.tds_col_TB_left_top,
+td.tds_col_TL_left_top,
+td.tds_col_TRB_left_top,
+td.tds_col_TRL_left_top,
+td.tds_col_TBL_left_top,
+td.tds_col_T_right_top,
+td.tds_col_TR_right_top,
+td.tds_col_TB_right_top,
+td.tds_col_TL_right_top,
+td.tds_col_TRB_right_top,
+td.tds_col_TRL_right_top,
+td.tds_col_TBL_right_top {
+	border-top: 1px solid;
+}
+
+td.r1_crest,
+td.r2_c1,
+td.r2_crest,
+td.col_TB,
+td.col_TBL,
+td.col_TBR,
+td.col_B,
+td.col_BL,
+td.col_BR,
+td.col_BRL,
+td.tds_col_TB,
+td.tds_col_TRB,
+td.tds_col_TBL,
+td.tds_col_RB,
+td.tds_col_RBL,
+td.tds_col_B,
+td.tds_col_BL,
+td.tds_col_TB_left,
+td.tds_col_TRB_left,
+td.tds_col_TBL_left,
+td.tds_col_RB_left,
+td.tds_col_RBL_left,
+td.tds_col_B_left,
+td.tds_col_BL_left,
+td.tds_col_TB_right,
+td.tds_col_TRB_right,
+td.tds_col_TBL_right,
+td.tds_col_RB_right,
+td.tds_col_RBL_right,
+td.tds_col_B_right,
+td.tds_col_BL_right,
+td.tds_col_TB_bottom,
+td.tds_col_TRB_bottom,
+td.tds_col_TBL_bottom,
+td.tds_col_RB_bottom,
+td.tds_col_RBL_bottom,
+td.tds_col_B_bottom,
+td.tds_col_BL_bottom,
+td.tds_col_TB_left_bottom,
+td.tds_col_TRB_left_bottom,
+td.tds_col_TBL_left_bottom,
+td.tds_col_RB_left_bottom,
+td.tds_col_RBL_left_bottom,
+td.tds_col_B_left_bottom,
+td.tds_col_BL_left_bottom,
+td.tds_col_TB_right_bottom,
+td.tds_col_TRB_right_bottom,
+td.tds_col_TBL_right_bottom,
+td.tds_col_RB_right_bottom,
+td.tds_col_RBL_right_bottom,
+td.tds_col_B_right_bottom,
+td.tds_col_BL_right_bottom,
+td.tds_col_TB_top,
+td.tds_col_TRB_top,
+td.tds_col_TBL_top,
+td.tds_col_RB_top,
+td.tds_col_RBL_top,
+td.tds_col_B_top,
+td.tds_col_BL_top,
+td.tds_col_TB_left_top,
+td.tds_col_TRB_left_top,
+td.tds_col_TBL_left_top,
+td.tds_col_RB_left_top,
+td.tds_col_RBL_left_top,
+td.tds_col_B_left_top,
+td.tds_col_BL_left_top,
+td.tds_col_TB_right_top,
+td.tds_col_TRB_right_top,
+td.tds_col_TBL_right_top,
+td.tds_col_RB_right_top,
+td.tds_col_RBL_right_top,
+td.tds_col_B_right_top,
+td.tds_col_BL_right_top {
+	border-bottom: 1px solid;
+}
+
+td.tds_col_B_bottom_dash {
+	border-bottom: 1px dashed;
+}
+
+td.r1_crest,
+td.r2_c1,
+td.r2_crest,
+td.col_TBR,
+td.col_TR,
+td.col_BR,
+td.col_BRL,
+td.col_R,
+td.col_RL,
+td.tds_col_TR,
+td.tds_col_TRL,
+td.tds_col_TRB,
+td.tds_col_R,
+td.tds_col_RB,
+td.tds_col_RL,
+td.tds_col_RBL,
+td.tds_col_TR_left,
+td.tds_col_TRL_left,
+td.tds_col_TRB_left,
+td.tds_col_R_left,
+td.tds_col_RB_left,
+td.tds_col_RL_left,
+td.tds_col_RBL_left,
+td.tds_col_TR_right,
+td.tds_col_TRL_right,
+td.tds_col_TRB_right,
+td.tds_col_R_right,
+td.tds_col_RB_right,
+td.tds_col_RL_right,
+td.tds_col_RBL_right,
+td.tds_col_TR_bottom,
+td.tds_col_TRL_bottom,
+td.tds_col_TRB_bottom,
+td.tds_col_R_bottom,
+td.tds_col_RB_bottom,
+td.tds_col_RL_bottom,
+td.tds_col_RBL_bottom,
+td.tds_col_TR_left_bottom,
+td.tds_col_TRL_left_bottom,
+td.tds_col_TRB_left_bottom,
+td.tds_col_R_left_bottom,
+td.tds_col_RB_left_bottom,
+td.tds_col_RL_left_bottom,
+td.tds_col_RBL_left_bottom,
+td.tds_col_TR_right_bottom,
+td.tds_col_TRL_right_bottom,
+td.tds_col_TRB_right_bottom,
+td.tds_col_R_right_bottom,
+td.tds_col_RB_right_bottom,
+td.tds_col_RL_right_bottom,
+td.tds_col_RBL_right_bottom,
+td.tds_col_TR_top,
+td.tds_col_TRL_top,
+td.tds_col_TRB_top,
+td.tds_col_R_top,
+td.tds_col_RB_top,
+td.tds_col_RL_top,
+td.tds_col_RBL_top,
+td.tds_col_TR_left_top,
+td.tds_col_TRL_left_top,
+td.tds_col_TRB_left_top,
+td.tds_col_R_left_top,
+td.tds_col_RB_left_top,
+td.tds_col_RL_left_top,
+td.tds_col_RBL_left_top,
+td.tds_col_TR_right_top,
+td.tds_col_TRL_right_top,
+td.tds_col_TRB_right_top,
+td.tds_col_R_right_top,
+td.tds_col_RB_right_top,
+td.tds_col_RL_right_top,
+td.tds_col_RBL_right_top {
+	border-right: 1px solid;
+}
+
+td.r2_c1,
+td.col_TBL,
+td.col_TL,
+td.col_BL,
+td.col_BRL,
+td.col_L,
+td.col_RL,
+td.tds_col_TL,
+td.tds_col_TRL,
+td.tds_col_TBL,
+td.tds_col_RL,
+td.tds_col_RBL,
+td.tds_col_BL,
+td.tds_col_L,
+td.tds_col_TL_left,
+td.tds_col_TRL_left,
+td.tds_col_TBL_left,
+td.tds_col_RL_left,
+td.tds_col_RBL_left,
+td.tds_col_BL_left,
+td.tds_col_L_left,
+td.tds_col_TL_right,
+td.tds_col_TRL_right,
+td.tds_col_TBL_right,
+td.tds_col_RL_right,
+td.tds_col_RBL_right,
+td.tds_col_BL_right,
+td.tds_col_L_right,
+td.tds_col_TL_bottom,
+td.tds_col_TRL_bottom,
+td.tds_col_TBL_bottom,
+td.tds_col_RL_bottom,
+td.tds_col_RBL_bottom,
+td.tds_col_BL_bottom,
+td.tds_col_L_bottom,
+td.tds_col_TL_left_bottom,
+td.tds_col_TRL_left_bottom,
+td.tds_col_TBL_left_bottom,
+td.tds_col_RL_left_bottom,
+td.tds_col_RBL_left_bottom,
+td.tds_col_BL_left_bottom,
+td.tds_col_L_left_bottom,
+td.tds_col_TL_right_bottom,
+td.tds_col_TRL_right_bottom,
+td.tds_col_TBL_right_bottom,
+td.tds_col_RL_right_bottom,
+td.tds_col_RBL_right_bottom,
+td.tds_col_BLright_bottom,
+td.tds_col_L_right_bottom,
+td.tds_col_TL_top,
+td.tds_col_TRL_top,
+td.tds_col_TBL_top,
+td.tds_col_RL_top,
+td.tds_col_RBL_top,
+td.tds_col_BL_top,
+td.tds_col_L_top,
+td.tds_col_TL_left_top,
+td.tds_col_TRL_left_top,
+td.tds_col_TBL_left_top,
+td.tds_col_RL_left_top,
+td.tds_col_RBL_left_top,
+td.tds_col_BL_left_top,
+td.tds_col_L_left_top,
+td.tds_col_TL_right_top,
+td.tds_col_TRL_right_top,
+td.tds_col_TBL_right_top,
+td.tds_col_RL_right_top,
+td.tds_col_RBL_right_top,
+td.tds_col_BL_right_top,
+td.tds_col_L_right_top {
+	border-left: 1px solid;
+}
+
+td.eight_thirtythree_percent
+{
+	width: 8.33%;
+}
+
+td.nine_percent
+{
+	width: 9%;
+}
+
+td.ten_percent
+{
+	width: 10%;
+}
+
+td.eleven_eleven_percent
+{
+	width: 11.11%;
+}
+
+td.twelve_five_percent
+{
+	width: 12.5%;
+}
+
+td.fourteen_twentyeight_percent
+{
+	width: 14.28%;
+}
+
+td.sixteen_sixtysix_percent
+{
+	width: 16.66%;
+}
+
+td.eighteen_percent
+{
+	width: 18%;
+}
+
+td.twenty_percent
+{
+	width: 20%;
+}
+
+td.twentytwo_twentytwo_percent
+{
+	width: 22.22%;
+}
+
+td.twentyfour_ninetynine_percent
+{
+	width: 24.91%;
+}
+
+td.twentyfive_percent
+{
+	width: 25%;
+}
+
+td.twentyseven_percent
+{
+	width: 27%;
+}
+
+td.twentyeight_fiftysix_percent
+{
+	width: 28.56%;
+}
+
+td.thirty_percent
+{
+	width: 30%;
+}
+
+td.thirtythree_thirtythree_percent
+{
+	width: 33.33%;
+}
+
+td.thirtysix_percent
+{
+	width: 36%;
+}
+
+td.thirtyseven_five_percent
+{
+	width: 37.5%;
+}
+
+td.forty_percent
+{
+	width: 40%;
+}
+
+td.fortyone_sixtyfive_percent
+{
+	width: 41.65%;
+}
+
+td.fortytwo_eightyfour_percent
+{
+	width: 42.84%;
+}
+
+td.fortyfour_four_percent
+{
+	width: 44.44%;
+}
+
+td.fortyfive_percent
+{
+	width: 45%;
+}
+
+td.fifty_percent
+{
+	width: 50%;
+}
+
+td.fiftyfour_percent
+{
+	width: 54%;
+}
+
+td.fiftyfive_fiftyfive_percent
+{
+	width: 55.55%;
+}
+
+td.fiftyseven_twelve_percent
+{
+	width: 57.12%;
+}
+
+td.fiftyeight_thirtyone_percent
+{
+	width: 58.31%;
+}
+
+td.sixty_percent
+{
+	width: 60%;
+}
+
+td.sixtytwo_five_percent
+{
+	width: 62.5%;
+}
+
+td.sixtythree_percent
+{
+	width: 63%;
+}
+
+td.sixtysix_sixtyseven_percent
+{
+	width: 66.67%;
+}
+
+td.seventy_percent
+{
+	width: 70%;
+}
+
+td.seventyone_four_percent
+{
+	width: 71.4%;
+}
+
+td.seventytwo_percent
+{
+	width: 72%;
+}
+
+td.seventyfour_ninetyseven_percent
+{
+	width: 74.97%;
+}
+
+td.seventyfive_percent
+{
+	width: 75%;
+}
+
+td.seventyseven_seventyseven_percent
+{
+	width: 77.77%;
+}
+
+td.eighty_percent
+{
+	width: 80%;
+}
+
+td.eightyone_percent
+{
+	width: 81%;
+}
+
+td.eightythree_thirtyfour_percent
+{
+	width: 83.34%;
+}
+
+td.eightyfive_seventytwo_percent
+{
+	width: 85.72%;
+}
+
+td.eightyseven_five_percent
+{
+	width: 87.5%;
+}
+
+td.eightyeight_eightynine_percent
+{
+	width: 88.89%;
+}
+
+td.eightynine_percent
+{
+	width: 89%;
+}
+
+td.ninety_percent
+{
+	width: 90%;
+}
+
+td.ninetyone_sixtyseven_percent
+{
+	width: 91.67%;
+}
+
+td.hundred_percent
+{
+	width: 100%;
+}
+
+/*Spacing Tabs*/
+
+.five_space_tab,
+.tds_five_space_tab
+{
+	padding-left: 1.25em;
+}
+
+.ten_space_tab,
+.tds_ten_space_tab
+{
+	padding-left: 2.5em;
+}
+
+.fifteen_space_tab,
+.tds_fifteen_space_tab
+{
+	padding-left: 3.75em;
+}
+
+.twenty_space_tab,
+.tds_twenty_space_tab
+{
+	padding-left: 5em;
+}
+
+.forty_space_tab,
+.tds_forty_space_tab
+{
+	padding-left: 10em;
+}
+
+.eighty_space_tab,
+.tds_eighty_space_tab
+{
+	padding-left: 20em;
+}
