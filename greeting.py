@@ -15,6 +15,8 @@ if userInput == 'Shantry':
         print('Hello knvoefhboienvefv.')
     if name == 'ijgbniuwgnvignvgubnsibngrbnsjbhsiuwtnvdfbeuvnfvnefuvwhskodjewifnve':
         print('fuckshitbitchdamncocksuckerpussyassholecuntmotherfuckindirtywhoershatontomylunchfuckshitdamnbitchsuckmydickjesusharoldchristshitbitchcocksuckergoddamnmotherfuckerpussyassholecunt
+    if name == '':
+              print('so you dont have a name???')
     time.sleep(1)    
     print ('Started Misleading API')
     time.sleep(.9)
