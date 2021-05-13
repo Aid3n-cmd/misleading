@@ -40,7 +40,7 @@ if userInput == 'Shantry':
     time.sleep(2)
     print('load 100%')
     time.sleep(3)
-    print('started!')
+    print('sharted!')
     
     print('Hi', name, '')
     time.sleep(3)
