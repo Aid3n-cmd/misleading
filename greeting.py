@@ -20,7 +20,7 @@ if userInput == 'Shantry':
     time.sleep(1)    
     print ('Started Misleading API')
     time.sleep(.9)
-    print('starting bot...')
+    print('starting thot...')
     time.sleep(4)
     print('load 4%')
     time.sleep(1)
