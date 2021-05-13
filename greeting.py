@@ -3,7 +3,7 @@ print('Misleading INC. Tech Department.')
 userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
-if userInput == 'Let Me In':
+if userInput == 'Shantry':
     hi = input ('Hello! \n')
     print ("I am A.I.D.E.N.")
     name = input('whats your name? \n')
