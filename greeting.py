@@ -44,7 +44,7 @@ if userInput == 'Shantry':
     
     print('Hi', name, '')
     time.sleep(3)
-    end = input('awaiting command input...\n')
+    end = input('awaiting cum and input...\n')
     
 
 #devtest things for testing maybe        
