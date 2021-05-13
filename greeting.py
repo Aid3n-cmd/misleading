@@ -4,9 +4,9 @@ userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
 if userInput == 'Shantry':
-    hi = input ('Hello! \n')
-    print ("I am A.I.D.E.N.")
-    name = input('whats your name? \n')
+    print('Correct')
+    print ("Misleading API")
+    name = input('Name:\n')
     if name == 'Aiden':
             print('Hello Co-Owner of Misleading INC.')
     if name == 'Kaleb':
@@ -14,7 +14,7 @@ if userInput == 'Shantry':
     if name == 'Asshole':
         print('Hello knvoefhboienvefv.')
     if name == 'ijgbniuwgnvignvgubnsibngrbnsjbhsiuwtnvdfbeuvnfvnefuvwhskodjewifnve':
-        print('fuckshitbitchdamncocksuckerpussyassholecuntmotherfuckindirtywhoershatontomylunchfuckshitdamnbitchsuckmydickjesusharoldchristshitbitchcocksuckergoddamnmotherfuckerpussyassholecunt
+        print('fuckshitbitchdamncocksuckerpussyassholecuntmotherfuckindirtywhoershatontomylunchfuckshitdamnbitchsuckmydickjesusharoldchristshitbitchcocksuckergoddamnmotherfuckerpussyassholecunt')
     if name == '':
               print('so you dont have a name???')
     time.sleep(1)    
@@ -43,8 +43,6 @@ if userInput == 'Shantry':
     print('started!')
     
     print('Hi', name, '')
-    mood = input('how are you?')
-    print ('I am also ', mood, '')
     time.sleep(3)
     end = input('awaiting command input...\n')
     
