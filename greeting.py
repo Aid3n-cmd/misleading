@@ -4,17 +4,17 @@ userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
 if userInput == 'Shantry':
-    print('Correct')
-    print ("Getting ready to start Misleading API.")
-    name = input('Name: \n')
+    hi = input ('Hello! \n')
+    print ("I am A.I.D.E.N.")
+    name = input('whats your name? \n')
     if name == 'Aiden':
             print('Hello Co-Owner of Misleading INC.')
     if name == 'Kaleb':
         print('Hello Owner of Misleading INC.')
     if name == 'Asshole':
         print('Hello knvoefhboienvefv.')
-    if name == '':
-        print('so you dont have a name???')
+    if name == 'ijgbniuwgnvignvgubnsibngrbnsjbhsiuwtnvdfbeuvnfvnefuvwhskodjewifnve':
+        print('fuckshitbitchdamncocksuckerpussyassholecuntmotherfuckindirtywhoershatontomylunchfuckshitdamnbitchsuckmydickjesusharoldchristshitbitchcocksuckergoddamnmotherfuckerpussyassholecunt
     time.sleep(1)    
     print ('Started Misleading API')
     time.sleep(.9)
