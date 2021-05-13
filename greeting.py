@@ -9,8 +9,8 @@ if userInput == 'Let Me In':
     name = input('whats your name? \n')
     if name == 'Aiden':
             print('Hello Co-Owner of Misleading INC.')
-    if name == 'Wyatt':
-        print('Hello Head Technical Developer at Misleading INC.')
+    if name == 'Kaleb':
+        print('Hello Owner of Misleading INC.')
     time.sleep(1)    
     print ('Started Misleading API')
     time.sleep(.9)
@@ -54,3 +54,5 @@ if end == 'help':
 
 if end == 'stop':
     print('end of program (you can close this window)\n')
+
+
