@@ -11,6 +11,8 @@ if userInput == 'Let Me In':
             print('Hello Co-Owner of Misleading INC.')
     if name == 'Kaleb':
         print('Hello Owner of Misleading INC.')
+    if name == 'Asshole':
+        print('Hello knvoefhboienvefv.')
     time.sleep(1)    
     print ('Started Misleading API')
     time.sleep(.9)
