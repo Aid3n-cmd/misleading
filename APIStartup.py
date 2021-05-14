@@ -1,0 +1,13 @@
+import time
+print('                                        hey there')
+time.sleep(1.5)
+print('                                        kaleb hates everyone')
+time.sleep(1.5)
+print('                                        so does aiden')
+time.sleep(1.5)
+print('                                        anyways welcome')
+print('')
+print('')
+print('')
+time.sleep(2.4)
+print('                                      ===Misleading API===')
