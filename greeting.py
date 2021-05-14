@@ -50,7 +50,7 @@ if userInput == 'Shantry':
 #devtest things for testing maybe        
 if userInput == 'devtest':
     print('devtest initiated')
-    then print('t')
+    print('t')
     
     
 #commands for the last variable in regular input (variable end)
