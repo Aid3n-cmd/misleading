@@ -3,14 +3,6 @@ print('Misleading INC. Tech Department.')
 userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
-
-
-#devtest things for testing maybe        
-if userInput == 'devtest':
-    print('devtest initiated')
-    print('t')
-    
-
 #the correct password
 if userInput == 'Shantry':
     print('Correct\n')
@@ -56,13 +48,21 @@ if userInput == 'Shantry':
     print('Hi', name, '')
     time.sleep(3)
     end = input('awaiting cum and input...\n')
-    
-    #If password is incorrect (having a problem so coming soon)    
-#else: userInput
-#input('That password is wrong')
-
-    
-    
+   
+if userInput == 'Blast.Some.Ass.':
+    print('Assblasters initiated.')
+    print('Running full system diagnostics')
+    print('Gucci Flip Flops fully operational.')
+    print('State of the art ass kickers fully operational.')
+    print('Error.')
+    print('Please input the Asskicking Assword.')
+if userInput == 'THROW THAT BACK LIKE A CADILAC'
+    print('Throwing school busses off of bridges...')
+    print('Laying mines inside of schoolyards...')
+    print('Eating orphans...')
+    print('Collecting ophan tears.')
+    print('All done! you may now commit all the attrosities you want! Have fun!')
+   
 #commands for the last variable in regular input (variable end)
 if end == 'help':
         print('This command will work when enough commands are implemented.')
