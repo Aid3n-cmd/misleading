@@ -56,7 +56,7 @@ if userInput == 'Blast.Some.Ass.':
     print('Gucci Flip Flops fully operational.')
     print('State of the art ass kickers fully operational.')
     print('Error.')
-    ass = userInput('Please input the Asskicking Assword.\n')
+    ass = Input('Please input the Asskicking Assword.\n')
     
 
 if ass == 'THROW THAT BACK LIKE A CADILAC':
