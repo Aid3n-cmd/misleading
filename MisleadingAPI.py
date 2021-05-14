@@ -14,6 +14,8 @@ if userInput == 'Shantry':
 cmdline1 = input('awaiting command input')
 if cmdline1 == help
     input('well... we havent really made any commands yet but there will be some soon')
+if cmdline1 == info
+    input('you can find all of our info here: trashsniper223.wixsite.com/misleading')
     
 if userInput == 'Blast.Some.Ass.':
     print('Assblasters initiated.')
@@ -26,9 +28,13 @@ if userInput == 'Blast.Some.Ass.':
 
 if ass == 'THROW THAT BACK LIKE A CADILAC':
     print('Throwing school busses off of bridges...')
+    time.sleep(2)
     print('Laying mines inside of schoolyards...')
+    time.sleep(2)
     print('Eating orphans...')
+    time.sleep(2)
     print('Collecting ophan tears.')
+    time.sleep(2)
     print('Correct\n')
     print ("===Misleading API=== \n")
     
