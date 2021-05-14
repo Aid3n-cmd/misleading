@@ -7,15 +7,6 @@ userInput = input('Enter the api assword.\n')
 if userInput == 'Shantry':
     print('Correct\n')
     print ("===Misleading API=== \n")
-    input('that is one of the correct passwords but not the coolest one...')
-    nameone = input('name:\n')
-    if nameone == 'Aiden'
-        print('Hello Co-Owner of Misleading INC')
-cmdline1 = input('awaiting command input')
-if cmdline1 == help
-    input('well... we havent really made any commands yet but there will be some soon')
-if cmdline1 == info
-    input('you can find all of our info here: trashsniper223.wixsite.com/misleading')
     
 if userInput == 'Blast.Some.Ass.':
     print('Assblasters initiated.')
@@ -23,7 +14,7 @@ if userInput == 'Blast.Some.Ass.':
     print('Gucci Flip Flops fully operational.')
     print('State of the art ass kickers fully operational.')
     print('Error.')
-    ass = Input('Please input the Asskicking Assword.\n')
+    ass = input('Please input the Asskicking Assword.\n')
     
 
 if ass == 'THROW THAT BACK LIKE A CADILAC':
