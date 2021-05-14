@@ -1,54 +1,75 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="gwt:property" content="locale=en">
-    <meta name="format-detection" content="telephone=no"/>
+import cgitb cgitb.enable()
+start_response('200 OK', [('Content-Type', 'text/html')])
 
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+import time
+print('Misleading INC. Tech Department.')
+userInput = input('Enter the api password.\n')
 
-    <link rel="icon" href="images/favicon.ico"/>
+#stuff for regular input for api password
 
-    <link type="text/css" rel="stylesheet" href="NCTestV3.css">
-    <link type="text/css" rel="stylesheet" href="sel.css">
-    <link type="text/css" rel="stylesheet" href="gxt-all.css">
 
-    <title>FRICKE ME</title>
+#devtest things for testing maybe        
+if userInput == 'devtest':
+    print('devtest initiated')
+    print('t')
+    
 
-    <!--<script type='application/javascript' src='fastclick.js'></script>-->
-    <script type="text/javascript" src="common.js"></script>
-    <script type="text/javascript" language="javascript" src="long.js"></script>
+#the correct password
+if userInput == 'Shantry':
+    print('Correct\n')
+    print ("===Misleading API=== \n")
+    
+    
+    name = input('Name:\n')
+    if name == 'Aiden':
+            print('Hello Co-Owner of Misleading INC.\n')
+    if name == 'Kaleb':
+        print('Hello Owner of Misleading INC.')
+    if name == 'Asshole':
+        print('Hello knvoefhboienvefv.')
+    if name == 'ijgbniuwgnvignvgubnsibngrbnsjbhsiuwtnvdfbeuvnfvnefuvwhskodjewifnve':
+        print('fuckshitbitchdamncocksuckerpussyassholecuntmotherfuckindirtywhoershatontomylunchfuckshitdamnbitchsuckmydickjesusharoldchristshitbitchcocksuckergoddamnmotherfuckerpussyassholecunt')
+    if name == '':
+              print('so you dont have a name???')
+    time.sleep(1)    
+    print ('Started Misleading API')
+    time.sleep(.9)
+    print('starting thot...')
+    time.sleep(4)
+    print('load 4%')
+    time.sleep(1)
+    print('load 13%')
+    time.sleep(1)
+    print('load 34%')
+    time.sleep(1)
+    print('load 48%')
+    time.sleep(.7)
+    print('load 56%')
+    time.sleep(.7)
+    print('load 69% (nice)')
+    time.sleep(1)
+    print('load 84%')
+    time.sleep(.6)
+    print('load 95%')
+    time.sleep(2)
+    print('load 100%')
+    time.sleep(3)
+    print('sharted!')
+    
+    print('Hi', name, '')
+    time.sleep(3)
+    end = input('awaiting cum and input...\n')
+    
+    #If password is incorrect (having a problem so coming soon)    
+else: userInput
+input('That password is wrong')
 
-    <script type="text/javascript">
-        window.name = "nctestwindow";
+    
+    
+#commands for the last variable in regular input (variable end)
+if end == 'help':
+        print('This command will work when enough commands are implemented.')
 
-        if (typeof(Storage) !== "undefined") {
-            sessionStorage.setItem("allowPublic", "true");
-        } else {
-            // ...no Web Storage support..
-        }
-    </script>
-</head>
-<!--                                           -->
-<!-- The body can have arbitrary html, or      -->
-<!-- you can leave the body empty if you want  -->
-<!-- to create a completely dynamic UI.        -->
-<!--                                           -->
-<body id="body">
+if end == 'stop':
+    print('end of program (you can close this window)\n')
 
-<!-- OPTIONAL: include this if you want history support -->
-<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
-        style="position:absolute;width:0;height:0;border:0"></iframe>
-
-<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
-<noscript>
-    <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
-        Your web browser must have JavaScript enabled
-        in order for this application to display correctly.
-    </div>
-</noscript>
-
-</body>
-</html>
