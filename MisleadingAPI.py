@@ -56,7 +56,7 @@ if userInput == 'Blast.Some.Ass.':
     print('State of the art ass kickers fully operational.')
     print('Error.')
     print('Please input the Asskicking Assword.')
-if userInput == 'THROW THAT BACK LIKE A CADILAC'
+if userInput == 'THROW THAT BACK LIKE A CADILAC':
     print('Throwing school busses off of bridges...')
     print('Laying mines inside of schoolyards...')
     print('Eating orphans...')
