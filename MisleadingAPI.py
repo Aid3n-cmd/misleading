@@ -1,4 +1,18 @@
 import time
+print('                                        hey there')
+time.sleep(1.5)
+print('                                        kaleb hates everyone')
+time.sleep(1.5)
+print('                                        so does aiden')
+time.sleep(1.5)
+print('                                        anyways welcome')
+print('')
+print('')
+print('')
+time.sleep(2.4)
+print('                                      ===Misleading API===')
+
+
 print('Misleading INC. Tech Department.')
 userInput = input('Enter the api assword.\n')
 
@@ -12,19 +26,19 @@ if userInput == 'Blast.Some.Ass.':
     print('Assblasters initiated.')
     print('Running full system diagnostics')
     print('Gucci Flip Flops fully operational.')
-    print('State of the art ass kickers operational.')
+    print('State of the art ass kickers fully operational.')
     print('Error.')
-    ass = input('Please input the Asskicking Assword.n\')
+    ass = input('Please input the Asskicking Assword.\n')
     
 
 if ass == 'THROW THAT BACK LIKE A CADILAC':
-    print('Throwing special ed busses off of bridges...')
+    print('Throwing school busses off of bridges...')
     time.sleep(2)
-    print('Planting mines inside of schoolyards...')
+    print('Laying mines inside of schoolyards...')
     time.sleep(2)
-    print('Skinning babies...')
+    print('Eating orphans...')
     time.sleep(2)
-    print('Harvesting ophan tears.')
+    print('Collecting ophan tears.')
     time.sleep(2)
     print('Correct\n')
     print ("===Misleading API=== \n")
@@ -74,4 +88,3 @@ if ass == 'THROW THAT BACK LIKE A CADILAC':
     
 if asst == '':
     Input('Hey theres no words there?!?!?!')   
-   
