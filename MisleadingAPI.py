@@ -14,15 +14,15 @@ print('                                      ===Misleading API===')
 
 
 print('Misleading INC. Tech Department.')
-userInput = input('Enter the api assword.\n')
+password = input('Enter the api assword.\n')
 
 #stuff for regular input for api password
 #the correct password
-if userInput == 'Shantry':
+if password == 'Shantry':
     print('Correct\n')
     print ("===Misleading API=== \n")
     
-if userInput == 'Blast.Some.Ass.':
+if password == 'trashsniper':
     print('Assblasters initiated.')
     print('Running full system diagnostics')
     print('Gucci Flip Flops fully operational.')
@@ -87,4 +87,4 @@ if ass == 'THROW THAT BACK LIKE A CADILAC':
     asst = input('All done! you may now commit all the attrosities you want! Have fun!')
     
 if asst == '':
-    Input('Hey theres no words there?!?!?!')   
+    input('Hey theres no words there?!?!?!')   
