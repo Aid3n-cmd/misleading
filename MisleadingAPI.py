@@ -48,6 +48,14 @@ if userInput == 'Shantry':
     print('Hi', name, '')
     time.sleep(3)
     end = input('awaiting cum and input...\n')
+    
+    #commands for the last variable in regular input (variable end)
+if end == 'help':
+        print('This command will work when enough commands are implemented.')
+
+if end == 'stop':
+    print('end of program (you can close this window)\n')
+
    
 if userInput == 'Blast.Some.Ass.':
     print('Assblasters initiated.')
@@ -63,9 +71,3 @@ if userInput == 'THROW THAT BACK LIKE A CADILAC':
     print('Collecting ophan tears.')
     print('All done! you may now commit all the attrosities you want! Have fun!')
    
-#commands for the last variable in regular input (variable end)
-if end == 'help':
-        print('This command will work when enough commands are implemented.')
-
-if end == 'stop':
-    print('end of program (you can close this window)\n')
