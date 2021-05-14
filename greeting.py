@@ -4,7 +4,7 @@ userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
 if userInput == 'Shantry':
-    print('Correct')
+    print('Incorrect, Welcome!')
     print ("Misleading API")
     name = input('Name:\n')
     if name == 'Aiden':
