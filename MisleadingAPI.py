@@ -3,12 +3,23 @@ print('Misleading INC. Tech Department.')
 userInput = input('Enter the api password.\n')
 
 #stuff for regular input for api password
+
+
+#devtest things for testing maybe        
+if userInput == 'devtest':
+    print('devtest initiated')
+    print('t')
+    
+
+#the correct password
 if userInput == 'Shantry':
-    print('Incorrect, Welcome!')
-    print ("Misleading API")
+    print('Correct\n')
+    print ("===Misleading API=== \n")
+    
+    
     name = input('Name:\n')
     if name == 'Aiden':
-            print('Hello Co-Owner of Misleading INC.')
+            print('Hello Co-Owner of Misleading INC.\n')
     if name == 'Kaleb':
         print('Hello Owner of Misleading INC.')
     if name == 'Asshole':
@@ -46,11 +57,10 @@ if userInput == 'Shantry':
     time.sleep(3)
     end = input('awaiting cum and input...\n')
     
+    #If password is incorrect (having a problem so coming soon)    
+#else: userInput
+#input('That password is wrong')
 
-#devtest things for testing maybe        
-if userInput == 'devtest':
-    print('devtest initiated')
-    print('t')
     
     
 #commands for the last variable in regular input (variable end)
@@ -59,5 +69,3 @@ if end == 'help':
 
 if end == 'stop':
     print('end of program (you can close this window)\n')
-
-
